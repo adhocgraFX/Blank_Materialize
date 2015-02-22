@@ -40,7 +40,6 @@ $info    = $params->get('info_block_position', 0);
 
 <?php echo JLayoutHelper::render('joomla.content.intro_image', $this->item); ?>
 
-
 <?php if (!$params->get('show_intro')) : ?>
 	<?php echo $this->item->event->afterDisplayTitle; ?>
 <?php endif; ?>
